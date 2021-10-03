@@ -6,8 +6,8 @@ listnumber = ["08123456789"]
 def DaftarKontak():
         print ("Daftar Kontak: ")
         for i in range(len(listkontak)):
-            print ("Nama : {}".format(listkontak[i]))
-            print ("Nomor telepon: {}". format(listnumber[i]))
+            print (f"Nama : {(listkontak[i])}")
+            print (f"Nomor telepon: {(listnumber[i])}")
 
 def TambahKontak():
         listkontak.append(input("Please enter the person name:"))
